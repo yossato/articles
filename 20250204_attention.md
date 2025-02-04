@@ -39,11 +39,11 @@
 
 端的にいうと朝から夜まで１時間毎の１週間の時間割を作ります。
 
-最強の集中力 本当にやりたいことに没頭する技術
+[最強の集中力 本当にやりたいことに没頭する技術](https://www.amazon.co.jp/dp/B08G4HPFG6)  に詳しく書かれています。
 
 ![最強のコピー](https://github.com/user-attachments/assets/624ff011-1b0d-492e-abcc-751803bb893c)
 
-https://www.amazon.co.jp/dp/B08G4HPFG6 に詳しく書かれています
+
 
 ---
 
