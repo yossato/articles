@@ -1,4 +1,4 @@
-# raspi‐jpn‐char‐keyboard で日本語入力対応 USB HID キーボードを作成！
+# Raspberry Pi Zero W で日本語入力対応 USB HID キーボードを作成！
 
 2025/02/08  
 
@@ -12,7 +12,7 @@ USB Gadget モード利用することで、Raspberry Pi Zero W が自動的に 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QMJmQvIDZQU?si=z_7HtEQnojOCUS-b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
   
-元ネタは@nanbuwksさんのQiitaの記事の中にある [MS-IME の場合は 文字コード(ex,611b・・・「愛」の Unocode)+F5でコード入力できるっぽいですね](https://qiita.com/nanbuwks/items/a791f99ff7773d1313b6#windows-の場合) です。  
+元ネタは @nanbuwks さんのQiitaの記事の中にある [MS-IME の場合は 文字コード(ex,611b・・・「愛」の Unocode)+F5でコード入力できるっぽいですね](https://qiita.com/nanbuwks/items/a791f99ff7773d1313b6#windows-の場合) です。  
 
 ---
 
@@ -179,7 +179,3 @@ python3 send_key_via_hid.py -d /dev/hidg0 -t sample.txt
 
 これらの設定を正しく行えば、Raspberry Pi Zero W が日本語入力対応の USB HID キーボードとして動作し、ホストPCへの入力が可能になります。  
 ぜひ、あなたの環境でも試してみてください！
-
----
-
-参考: [Qiitaの記事](https://qiita.com/zaburo/items/ea185925a46877a6ad26)
