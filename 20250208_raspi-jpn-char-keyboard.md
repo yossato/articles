@@ -10,7 +10,9 @@ https://github.com/yossato/raspi-jpn-char-keyboard
 
 USB Gadget モードと Windows の IME を利用することで、Raspberry Pi Zero W が自動的に HID キーボードとして振る舞う仕組みを構築します。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QMJmQvIDZQU?si=z_7HtEQnojOCUS-b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QMJmQvIDZQU?si=z_7HtEQnojOCUS-b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+  
+元ネタは@nanbuwksさんのQiitaの記事の中にある [MS-IME の場合は 文字コード(ex,611b・・・「愛」の Unocode)+F5でコード入力できるっぽいですね](https://qiita.com/nanbuwks/items/a791f99ff7773d1313b6#windows-の場合) です。  
 
 ---
 
