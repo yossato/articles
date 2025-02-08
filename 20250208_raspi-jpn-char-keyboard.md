@@ -8,7 +8,7 @@ Githubで公開しています。
 
 [https://github.com/yossato/raspi-jpn-char-keyboard](https://github.com/yossato/raspi-jpn-char-keyboard)
 
-USB Gadget モードと Windows の IME を利用することで、Raspberry Pi Zero W が自動的に HID キーボードとして振る舞う仕組みを構築します。
+USB Gadget モード利用することで、Raspberry Pi Zero W が自動的に HID キーボードとして振る舞い、 IME の機能を利用して漢字も入力できる仕組みを構築します。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QMJmQvIDZQU?si=z_7HtEQnojOCUS-b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
   
@@ -35,7 +35,7 @@ USB Gadget モードと Windows の IME を利用することで、Raspberry Pi 
    Raspberry Pi Imager を使用して、Raspberry Pi OS のイメージを microSD カードに書き込みます。
    <img width="792" alt="Raspberry Pi" src="https://github.com/user-attachments/assets/25a1fb75-0c50-4c83-8c02-c1176d26aa91" />
 
-   書き込み後、SD カードは PC に差し込んで直接ファイル編集が可能です。
+   書き込み後、SD カードは PC に差し込んで 次の章で解説する cmdline.txt と config.txt の直接ファイル編集が可能です。
 
    > **Tip:** Raspberry Pi Imager の高度な設定機能を使えば、Wi-Fi の SSID/パスワードや SSH の有効化、ユーザー名・パスワードの設定も事前に行えます。  
    > これにより、初回起動時にモニターやキーボードを接続せずに、すぐにリモートから SSH でアクセス可能になります。
