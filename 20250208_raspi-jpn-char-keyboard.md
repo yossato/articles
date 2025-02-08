@@ -6,7 +6,7 @@
 今回は Raspberry Pi Zero W を使って、ホストPCに日本語（漢字を含む）の入力を送信できる USB HID キーボードを実現するプロジェクト「raspi‐jpn‐char‐keyboard」をご紹介します。  
 Githubで公開しています。  
 
-https://github.com/yossato/raspi-jpn-char-keyboard
+[https://github.com/yossato/raspi-jpn-char-keyboard](https://github.com/yossato/raspi-jpn-char-keyboard)
 
 USB Gadget モードと Windows の IME を利用することで、Raspberry Pi Zero W が自動的に HID キーボードとして振る舞う仕組みを構築します。
 
