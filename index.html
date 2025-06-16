@@ -1,109 +1,13 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>記事一覧</title>
-</head>
-<body>
-    <header>
-        <h1>ようこそ</h1>
-    </header>
-    <main>
-        <p>
-            記事の一覧です。日頃思いついたことを書きます。
-        </p>
-
-        <ul>
-            <li><a href="20250429_gym.html">2025/04/29 筋トレのボトルネックが「手のひら」だった話</a></li>
-        </ul>
-        
-        <ul>
-            <li><a href="20250309_time_trial_in_daily_life.html">2025/03/09 ジムから帰宅後のタイムトライアル</a></li>
-        </ul>
-        
-        <ul>
-            <li><a href="20250227_AI_Human_cooperative_relationship.html">2025/02/27 生成AIと人間の役割分担：戦術はAI、戦略は人間</a></li>
-        </ul>
-        
-        <ul>
-            <li><a href="20250225_usb_dp_alt_hub.html">2025/02/25 新しいPC環境を整えた話</a></li>
-        </ul>
-
-        <ul>
-            <li><a href="20250220_swedish_torch.html">2025/02/20 スウェーデントーチを自作した話</a></li>
-        </ul>
-        
-        <ul>
-            <li><a href="20250217_whisper.html">2025/02/17 話した内容でブログを高速に作成</a></li>
-        </ul>
-        
-        <ul>
-            <li><a href="20250216_frying_pan.html">2025/02/16 フッ素加工フライパンから鉄製フライパンへ</a></li>
-        </ul>
-        
-        <ul>
-            <li><a href="20250216_wave.html">2025/02/16 掃除道具レビュー：ウェーブの使い方と特徴</a></li>
-        </ul>
-        
-        <ul>
-            <li><a href="20250213_fitness.html">2025/02/13 スポーツジムに通い始めて1週間</a></li>
-        </ul>
-        
-        <ul>
-            <li><a href="20250209_mitey_checker.html">2025/02/09 マイティチェッカーでソファのアレルゲンをチェック！</a></li>
-        </ul>
-
-        <ul>
-            <li><a href="20250208_raspi-jpn-char-keyboard.html">2025/02/08 日本語入力対応 USB HID キーボードを作成！</a></li>
-        </ul>
-
-        
-        <ul>
-            <li><a href="20250208_attention_economy.html">2025/02/08 情報は関心を消費する──情報の受け取り方と家族との関係</a></li>
-        </ul>
-        
-
-        <ul>
-            <li><a href="20250206_mutalk2.html">2025/02/06 Mutalk 2を使ってみた</a></li>
-        </ul>
-        
-
-        <ul>
-            <li><a href="20250206_buying_a_car.html">2025/02/06 車を買った理由と生活の変化</a></li>
-        </ul>
-        
-        <ul>
-            <li><a href="20250205_ring_light_ikea.html">2025/02/05 IKEAでリングライトを買った話 〜リモートワークの映りを改善〜</a></li>
-        </ul>
-        
-        <ul>
-            <li><a href="20250204_attention.html">2025/02/04 注意散漫を防ぐ方法：タイムボクシング(実行意図の設定)のすすめ</a></li>
-        </ul>
-        
-        
-        <ul>
-            <li><a href="20250202_usb_dp_alt.html">2025/02/02 USB C DisplayPort Alternate Mode で快適作業環境を構築する話</a></li>
-        </ul>
-                    
-        <ul>
-            <li><a href="20250130_rice_pot.html">2025/01/30 鍋で炊くご飯の魅力にハマった話</a></li>
-        </ul>
-        
-        <ul>
-            <li><a href="20250129_coffee_roast.html">2025/01/29 自宅で楽しむコーヒー生豆焙煎</a></li>
-        </ul>
-        
-        <ul>
-            <li><a href="cough_asthma.html">2025/01/29 咳の症状を減らすために実践したこと</a></li>
-        </ul>
-
-        <ul>
-            <li><a href="reading.html">2025/01/28 Kindleを耳で聴く方法</a></li>
-        </ul>        
-    </main>
-    <footer>
-        <p>&copy; 2025 Yoshiaki</p>
-    </footer>
-</body>
-</html>
+---
+layout: default
+title: ブログ目次
+---
+<h1>ブログ記事一覧</h1>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <small>（{{ post.date | date: "%Y-%m-%d" }}）</small>
+    </li>
+  {% endfor %}
+</ul>
