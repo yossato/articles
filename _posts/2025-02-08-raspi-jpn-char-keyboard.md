@@ -4,8 +4,6 @@ title: "Raspberry Pi Zero W で日本語入力対応 USB HID キーボードを�
 date: 2025-02-08
 ---
 
-# Raspberry Pi Zero W で日本語入力対応 USB HID キーボードを作成！
-
 2025/02/08  
 
 こんにちは！  
