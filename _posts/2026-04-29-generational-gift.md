@@ -8,7 +8,7 @@ date: 2026-04-29
 
 ---
 
-![story]({{ site.baseurl }}/assets/images/b9c73f4a871677538e44e705d77846878b88d1720f203616117c1de536ab7757.png)
+![alt text]({{ site.baseurl }}/assets/images/a9d8307914174dd9c30469cc7e343d09ad029260c70270f1dcd0f9ac438089ac.png)
 
 ## 江ノ島の海の記憶
 
