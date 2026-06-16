@@ -34,6 +34,10 @@ image: /assets/images/nogasan-pack-attached.jpg
 
 洗濯機の背面にある排気口は、**縦3行・横5列+1個の穴が斜めのパターンで並んだ格子状の構造**になっている。この穴から乾燥中に湿った空気が継続的に排出される。
 
+![3Dプリンター製パーツ取り付け前の排気口（素の状態）]({{ site.baseurl }}/assets/images/exhaust-port-before.jpg)
+
+パーツを取り付けた後の内側はこのようになっている。
+
 ![排気口に3Dプリンター製パーツを取り付けた内側の様子]({{ site.baseurl }}/assets/images/exhaust-port-3d-part-inside.jpg)
 
 以前から「洗濯機を置いている洗面所の近くに大量の埃が溜まる」ことが気になっていた。このフィルターを取り付けてからは埃が溜まることがかなり少なくなり、掃除の頻度も下がった。
