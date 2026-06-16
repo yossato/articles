@@ -72,7 +72,7 @@ image: /assets/images/nogasan-pack-attached.jpg
 
 排気口の縦3行・横5列の斜め格子状の穴のパターンに合わせてパーツを設計し、逃がさんパックをしっかり保持できる構造にした。STLファイルを置いておくので、興味があれば活用してほしい。
 
-[washer-exhaust-filter-mount.stl をダウンロード](../assets/stl/washer-exhaust-filter-mount.stl)
+[washer-exhaust-filter-mount.stl をダウンロード]({{ site.baseurl }}/assets/stl/washer-exhaust-filter-mount.stl)
 
 ![3Dプリンター製パーツを洗濯機外側に取り付けた様子]({{ site.baseurl }}/assets/images/3d-part-installed-outside.jpg)
 
