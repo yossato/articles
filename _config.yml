@@ -1,5 +1,5 @@
 title: "Yoshiaki Articles"
 description: "個人の覚書と雑記"
-url: "https://yossato.github.io/articles"
-baseurl: ""
+url: "https://yossato.github.io"
+baseurl: "/articles"
 permalink: "/:year:month:day_:title.html"
