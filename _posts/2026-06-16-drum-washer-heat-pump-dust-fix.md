@@ -34,7 +34,7 @@ image: /assets/images/nogasan-pack-attached.jpg
 
 洗濯機の背面にある排気口は、**縦3行・横5列+1個の穴が斜めのパターンで並んだ格子状の構造**になっている。この穴から乾燥中に湿った空気が継続的に排出される。
 
-![排気口に3Dプリンター製パーツを取り付けた内側の様子](../assets/images/exhaust-port-3d-part-inside.jpg)
+![排気口に3Dプリンター製パーツを取り付けた内側の様子]({{ site.baseurl }}/assets/images/exhaust-port-3d-part-inside.jpg)
 
 以前から「洗濯機を置いている洗面所の近くに大量の埃が溜まる」ことが気になっていた。このフィルターを取り付けてからは埃が溜まることがかなり少なくなり、掃除の頻度も下がった。
 
@@ -48,7 +48,7 @@ image: /assets/images/nogasan-pack-attached.jpg
 
 乾燥運転中にこのパックを観察していると、**パックの表面に結露が発生**するのが見える。これにより、湿った空気が実際にここから排出されていることが視覚的に確認できた。水分と空気は外へ出るが、埃はパックにキャッチされる仕組みだ。
 
-![逃がさんパックを取り付けた様子](../assets/images/nogasan-pack-attached.jpg)
+![逃がさんパックを取り付けた様子]({{ site.baseurl }}/assets/images/nogasan-pack-attached.jpg)
 
 調べてみると、綿・麻などの繊維粉じんを長期間吸い込む職場では **綿肺症（byssinosis）** という職業病が知られており、アレルギーではなく繊維くずや細菌由来のLPS（内毒素）などによる非アレルギー性の気道炎症・気管支収縮が原因とされている。
 
@@ -70,7 +70,7 @@ image: /assets/images/nogasan-pack-attached.jpg
 
 [washer-exhaust-filter-mount.stl をダウンロード](../assets/stl/washer-exhaust-filter-mount.stl)
 
-![3Dプリンター製パーツを洗濯機外側に取り付けた様子](../assets/images/3d-part-installed-outside.jpg)
+![3Dプリンター製パーツを洗濯機外側に取り付けた様子]({{ site.baseurl }}/assets/images/3d-part-installed-outside.jpg)
 
 ### 振動対策：石こうボード用アンカーで固定
 
@@ -82,11 +82,11 @@ image: /assets/images/nogasan-pack-attached.jpg
 
 **ネジ（タッピングスクリュー）**
 
-![ネジ](../assets/images/tapping-screw.jpg)
+![ネジ]({{ site.baseurl }}/assets/images/tapping-screw.jpg)
 
 **アリゲーター（石こうボード用アンカー）**
 
-![アリゲーター（石こうボード用アンカー）](../assets/images/alligator-anchor.jpg)
+![アリゲーター（石こうボード用アンカー）]({{ site.baseurl }}/assets/images/alligator-anchor.jpg)
 
 アリゲーターは石こうボードのような脆い素材への固定に使うアンカーで、ネジを差し込むと内部でワニの口のように開いて抜けなくなる仕組みになっている。これにより、振動にも耐える安定した長期固定が可能になった。
 
