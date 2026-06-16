@@ -36,10 +36,6 @@ image: /assets/images/nogasan-pack-attached.jpg
 
 ![3Dプリンター製パーツ取り付け前の排気口（素の状態）]({{ site.baseurl }}/assets/images/exhaust-port-before.jpg)
 
-パーツを取り付けた後の内側はこのようになっている。
-
-![排気口に3Dプリンター製パーツを取り付けた内側の様子]({{ site.baseurl }}/assets/images/exhaust-port-3d-part-inside.jpg)
-
 以前から「洗濯機を置いている洗面所の近くに大量の埃が溜まる」ことが気になっていた。このフィルターを取り付けてからは埃が溜まることがかなり少なくなり、掃除の頻度も下がった。
 
 ---
@@ -68,11 +64,13 @@ image: /assets/images/nogasan-pack-attached.jpg
 
 ## 3Dプリンターで取り付けパーツを作成
 
-排気口に直接パックを固定するための専用パーツを、3Dプリンターで作成して取り付けた。
+排気口に直接パックを固定するための専用パーツを、3Dプリンターで作成して取り付けた。3Dプリンター製パーツがアダプターとなり、逃がさんパックを排気口に固定できる構造になっている。
 
 排気口の縦3行・横5列の斜め格子状の穴のパターンに合わせてパーツを設計し、逃がさんパックをしっかり保持できる構造にした。STLファイルを置いておくので、興味があれば活用してほしい。
 
 [washer-exhaust-filter-mount.stl をダウンロード]({{ site.baseurl }}/assets/stl/washer-exhaust-filter-mount.stl)
+
+![排気口に3Dプリンター製パーツを取り付けた内側の様子]({{ site.baseurl }}/assets/images/exhaust-port-3d-part-inside.jpg)
 
 ![3Dプリンター製パーツを洗濯機外側に取り付けた様子]({{ site.baseurl }}/assets/images/3d-part-installed-outside.jpg)
 
