@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "米軍式入眠法──ストレス下でも5分で眠りにつく方法"
+title: "米軍式入眠法──ストレス下でも2分で眠りにつく方法"
 date: 2026-08-19
 description: "睡眠時間の確保だけでなく、早く寝付くことの重要性と、自分が実践している米軍式入眠法のやり方を紹介する。全身の力を順番に抜いていき、湖に浮かぶ小舟をイメージすることで、昼寝でも高確率で眠りにつける。カフェインが天敵であることも書いた。"
 ---
@@ -11,7 +11,7 @@ description: "睡眠時間の確保だけでなく、早く寝付くことの重
 
 ## 睡眠時間の確保だけでは足りない
 
-睡眠時間は健康の基本である。6時間未満の睡眠が何日も続くと、思考力や認知能力が二日酔いレベルまで下がってしまうという研究もあるらしい。だからこそ、十分な睡眠時間を取ることが重要なのは間違いない。
+睡眠時間は健康の基本である。1日6時間睡眠を14日間続けただけで、認知パフォーマンス（注意力・作業記憶・処理速度）の低下が、2晩徹夜した場合と同程度にまで達するという[研究](https://academic.oup.com/sleep/article-abstract/26/2/117/2709164)がある。しかも本人の自覚的な眠気は途中で頭打ちになる一方、客観的なパフォーマンスは下がり続けるというから怖い。さらに別の[研究](https://pubmed.ncbi.nlm.nih.gov/10984335/)では、断眠後17〜19時間起き続けた状態のパフォーマンス低下は、多くの国で運転が禁止される血中アルコール濃度0.05%相当の飲酒時と同程度だとも報告されている。つまり「6時間睡眠を2週間続ける」ことは、二日酔いというよりほろ酔い運転レベルの認知機能低下を毎日抱えて過ごしているようなものかもしれない。だからこそ、十分な睡眠時間を取ることが重要なのは間違いない。
 
 ただ、睡眠時間を確保することと同じくらい、**早く寝付くこと**もおそらく重要である。何かしら条件が整わず、なかなか寝付けないと、せっかく確保した睡眠時間を十分に活用できないことになってしまう。
 
@@ -41,7 +41,7 @@ description: "睡眠時間の確保だけでなく、早く寝付くことの重
 
 全身の力を抜いてしばらくすると、手足の感覚がなくなってきて、まるでベッドという空間と自分が一つになったような感覚が得られる。この状態になっていれば、もう寝たも同然である。
 
-確か米軍の研究では、爆撃を受けているような強いストレス下、砲弾が飛び交うような環境でも、5分以内に眠りにつけるという話があったと思う。
+この方法の元ネタは、第二次世界大戦中に米海軍の飛行前訓練学校（Navy Pre-Flight School）向けに開発されたリラクゼーション法だとされている。陸上競技コーチのLloyd "Bud" Winterが著書『Relax and Win: Championship Performance』（1981年）で紹介したもので、6週間の練習を積んだパイロットは、コーヒーを飲んだ状態でも、銃声を流された状態でも、96%の確率で2分以内に眠りにつけるようになったという。
 
 自分でも実践してみると、実際に5分か10分くらいで眠りにつける感覚がある。その証拠に、昼寝をするときにタイマーを20分にセットしてこの入眠法を使うと、9割以上の確率で、20分経って起こされたときにはすでに寝ていた感じがしている。
 
@@ -64,3 +64,11 @@ description: "睡眠時間の確保だけでなく、早く寝付くことの重
 - 手足の感覚がなくなり、ベッドと一体化したような感覚になれば、ほぼ寝たも同然
 - ベッドだけでなく、電車の座席など短い時間でも実践できる
 - カフェインを寝る前に摂ると、この方法を使っても寝つきが悪くなる
+
+---
+
+## 参考文献
+
+- Van Dongen, H. P. A., Maislin, G., Mullington, J. M., & Dinges, D. F. (2003). [The Cumulative Cost of Additional Wakefulness: Dose-Response Effects on Neurobehavioral Functions and Sleep Physiology From Chronic Sleep Restriction and Total Sleep Deprivation](https://academic.oup.com/sleep/article-abstract/26/2/117/2709164). *Sleep*, 26(2), 117-126.
+- Williamson, A. M., & Feyer, A. M. (2000). [Moderate sleep deprivation produces impairments in cognitive and motor performance equivalent to legally prescribed levels of alcohol intoxication](https://pubmed.ncbi.nlm.nih.gov/10984335/). *Occupational and Environmental Medicine*, 57(10), 649-655.
+- Winter, L. "Bud", & Ackerman, S. (1981). *Relax and Win: Championship Performance*. California: Halcyon House.
