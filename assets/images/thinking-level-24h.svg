@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 590" role="img" aria-labelledby="chartTitle chartDesc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 612" role="img" aria-labelledby="chartTitle chartDesc">
   <title id="chartTitle">1日の中の「考える量」のイメージ図</title>
-  <desc id="chartDesc">横軸は0時から24時までの時刻、縦軸は思考の集中度合いのイメージ。強火型は仕事の時間にだけ鋭いピークを迎え、それ以外の時間はほぼゼロまで下がる。弱火型はピークを迎えることなく、一日中ほぼ同じ中程度のレベルが続く。</desc>
+  <desc id="chartDesc">横軸は0時から24時までの時刻、縦軸は思考の集中度合いのイメージ。強火型は仕事の時間にだけ鋭いピークを迎え、それ以外の時間はほぼゼロまで下がる。弱火型はピークを迎えることなく、一日中ほぼ同じ中程度のレベルが続く。塗りつぶした面積（思考量の合計）で比べると、強火型が約42%、弱火型が約42%とほぼ同じで、違うのは配分の仕方だけであることを示している。</desc>
   <style>
     .fig-bg { fill: #ffffff; }
     text { font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", sans-serif; fill: #0b0b0b; }
@@ -14,21 +14,25 @@
     .baseline { stroke: #c7c6c1; stroke-width: 1.5; }
     .tick { stroke: #c7c6c1; stroke-width: 1.5; }
     .work-band { fill: #2a78d6; opacity: 0.08; }
+    .area-fill { fill: #2a78d6; opacity: 0.14; stroke: none; }
     .series-line { fill: none; stroke: #2a78d6; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    .avg-label { font-size: 13px; font-weight: 700; fill: #1a4c8c; text-anchor: end; }
     .footnote { font-size: 12px; fill: #6b6a66; text-anchor: middle; }
   </style>
 
-  <rect class="fig-bg" x="0" y="0" width="900" height="590"/>
+  <rect class="fig-bg" x="0" y="0" width="900" height="612"/>
 
   <text class="chart-title" x="450" y="28">1日の中の「考える量」のイメージ図</text>
 
   <!-- Panel 1: 強火型 -->
   <text class="panel-title" x="70" y="54">① 強火型：仕事の時間に集中する</text>
   <text class="panel-note" x="70" y="72">仕事中にピークを迎え、それ以外はしっかり休む</text>
+  <text class="avg-label" x="860" y="54">平均レベル 約42%</text>
 
   <rect class="work-band" x="366.25" y="90" width="296.25" height="160"/>
   <text class="work-label" x="514.375" y="104">仕事の時間（9〜18時）</text>
 
+  <path class="area-fill" d="M70,250 L70,242 L135.84,242 Q201.67,242 251.05,239.6 Q300.42,237.2 333.34,175.6 Q366.25,114 399.17,106 Q432.08,98 465,116.4 Q497.92,134.8 522.61,116.4 Q547.29,98 588.44,102 Q629.58,106 654.27,138 Q678.96,170 703.65,202 Q728.33,234 794.17,238 L860,242 L860,250 Z"/>
   <line class="baseline" x1="70" y1="250" x2="860" y2="250"/>
   <path class="series-line" d="M70,242 L135.84,242 Q201.67,242 251.05,239.6 Q300.42,237.2 333.34,175.6 Q366.25,114 399.17,106 Q432.08,98 465,116.4 Q497.92,134.8 522.61,116.4 Q547.29,98 588.44,102 Q629.58,106 654.27,138 Q678.96,170 703.65,202 Q728.33,234 794.17,238 L860,242"/>
 
@@ -54,10 +58,12 @@
   <!-- Panel 2: 弱火型 -->
   <text class="panel-title" x="70" y="320">② 弱火型：メリハリなく一日中考え続ける</text>
   <text class="panel-note" x="70" y="338">ピークを迎えることなく、休む時間もない</text>
+  <text class="avg-label" x="860" y="320">平均レベル 約42%</text>
 
   <rect class="work-band" x="366.25" y="356" width="296.25" height="160"/>
   <text class="work-label" x="514.375" y="370">仕事の時間（9〜18時）</text>
 
+  <path class="area-fill" d="M70,516 L70,455.2 L135.84,457.6 Q201.67,460 267.5,456 Q333.33,452 366.25,444 Q399.17,436 448.55,442.4 Q497.92,448.8 547.3,442.4 Q596.67,436 629.59,440.8 Q662.5,445.6 711.88,448.8 Q761.25,452 810.63,453.6 L860,455.2 L860,516 Z"/>
   <line class="baseline" x1="70" y1="516" x2="860" y2="516"/>
   <path class="series-line" d="M70,455.2 L135.84,457.6 Q201.67,460 267.5,456 Q333.33,452 366.25,444 Q399.17,436 448.55,442.4 Q497.92,448.8 547.3,442.4 Q596.67,436 629.59,440.8 Q662.5,445.6 711.88,448.8 Q761.25,452 810.63,453.6 L860,455.2"/>
 
@@ -80,5 +86,6 @@
     <text class="tick-label" x="860" y="536">24時</text>
   </g>
 
-  <text class="footnote" x="450" y="568">縦軸は思考の集中度合いのイメージ、横軸は1日の時刻（0〜24時）</text>
+  <text class="footnote" x="450" y="570">縦軸は思考の集中度合いのイメージ、横軸は1日の時刻（0〜24時）</text>
+  <text class="footnote" x="450" y="590">塗りつぶした面積（思考量の合計）はほぼ同じ。違うのは、山型に配分するか、薄く引き伸ばすかだけ</text>
 </svg>
