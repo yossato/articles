@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 590" role="img" aria-labelledby="chartTitle chartDesc">
+  <title id="chartTitle">1日の中の「考える量」のイメージ図</title>
+  <desc id="chartDesc">横軸は0時から24時までの時刻、縦軸は思考の集中度合いのイメージ。強火型は仕事の時間にだけ鋭いピークを迎え、それ以外の時間はほぼゼロまで下がる。弱火型はピークを迎えることなく、一日中ほぼ同じ中程度のレベルが続く。</desc>
+  <style>
+    .fig-bg { fill: #ffffff; }
+    text { font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", sans-serif; fill: #0b0b0b; }
+    .chart-title { font-size: 20px; font-weight: 700; text-anchor: middle; }
+    .panel-title { font-size: 15px; font-weight: 700; }
+    .panel-note { font-size: 12px; fill: #52514e; }
+    .axis-label { font-size: 12px; fill: #52514e; }
+    .tick-label { font-size: 12px; fill: #6b6a66; text-anchor: middle; }
+    .work-label { font-size: 11px; fill: #52514e; text-anchor: middle; }
+    .callout { font-size: 12px; fill: #1a1a1a; }
+    .baseline { stroke: #c7c6c1; stroke-width: 1.5; }
+    .tick { stroke: #c7c6c1; stroke-width: 1.5; }
+    .work-band { fill: #2a78d6; opacity: 0.08; }
+    .series-line { fill: none; stroke: #2a78d6; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    .footnote { font-size: 12px; fill: #6b6a66; text-anchor: middle; }
+  </style>
+
+  <rect class="fig-bg" x="0" y="0" width="900" height="590"/>
+
+  <text class="chart-title" x="450" y="28">1日の中の「考える量」のイメージ図</text>
+
+  <!-- Panel 1: 強火型 -->
+  <text class="panel-title" x="70" y="54">① 強火型：仕事の時間に集中する</text>
+  <text class="panel-note" x="70" y="72">仕事中にピークを迎え、それ以外はしっかり休む</text>
+
+  <rect class="work-band" x="366.25" y="90" width="296.25" height="160"/>
+  <text class="work-label" x="514.375" y="104">仕事の時間（9〜18時）</text>
+
+  <line class="baseline" x1="70" y1="250" x2="860" y2="250"/>
+  <path class="series-line" d="M70,242 L135.84,242 Q201.67,242 251.05,239.6 Q300.42,237.2 333.34,175.6 Q366.25,114 399.17,106 Q432.08,98 465,116.4 Q497.92,134.8 522.61,116.4 Q547.29,98 588.44,102 Q629.58,106 654.27,138 Q678.96,170 703.65,202 Q728.33,234 794.17,238 L860,242"/>
+
+  <text class="callout" x="432.08" y="82" text-anchor="middle">ピーク（強火）</text>
+  <text class="callout" x="790" y="230" text-anchor="end">退勤後はほぼゼロ</text>
+
+  <text class="axis-label" x="55" y="98" text-anchor="end">高</text>
+  <text class="axis-label" x="55" y="254" text-anchor="end">低</text>
+
+  <g>
+    <line class="tick" x1="70" y1="250" x2="70" y2="256"/>
+    <line class="tick" x1="267.5" y1="250" x2="267.5" y2="256"/>
+    <line class="tick" x1="465" y1="250" x2="465" y2="256"/>
+    <line class="tick" x1="662.5" y1="250" x2="662.5" y2="256"/>
+    <line class="tick" x1="860" y1="250" x2="860" y2="256"/>
+    <text class="tick-label" x="70" y="270">0時</text>
+    <text class="tick-label" x="267.5" y="270">6時</text>
+    <text class="tick-label" x="465" y="270">12時</text>
+    <text class="tick-label" x="662.5" y="270">18時</text>
+    <text class="tick-label" x="860" y="270">24時</text>
+  </g>
+
+  <!-- Panel 2: 弱火型 -->
+  <text class="panel-title" x="70" y="320">② 弱火型：メリハリなく一日中考え続ける</text>
+  <text class="panel-note" x="70" y="338">ピークを迎えることなく、休む時間もない</text>
+
+  <rect class="work-band" x="366.25" y="356" width="296.25" height="160"/>
+  <text class="work-label" x="514.375" y="370">仕事の時間（9〜18時）</text>
+
+  <line class="baseline" x1="70" y1="516" x2="860" y2="516"/>
+  <path class="series-line" d="M70,455.2 L135.84,457.6 Q201.67,460 267.5,456 Q333.33,452 366.25,444 Q399.17,436 448.55,442.4 Q497.92,448.8 547.3,442.4 Q596.67,436 629.59,440.8 Q662.5,445.6 711.88,448.8 Q761.25,452 810.63,453.6 L860,455.2"/>
+
+  <text class="callout" x="465" y="404" text-anchor="middle">ピークが来ない</text>
+  <text class="callout" x="790" y="440" text-anchor="end">夜も下がりきらない</text>
+
+  <text class="axis-label" x="55" y="364" text-anchor="end">高</text>
+  <text class="axis-label" x="55" y="520" text-anchor="end">低</text>
+
+  <g>
+    <line class="tick" x1="70" y1="516" x2="70" y2="522"/>
+    <line class="tick" x1="267.5" y1="516" x2="267.5" y2="522"/>
+    <line class="tick" x1="465" y1="516" x2="465" y2="522"/>
+    <line class="tick" x1="662.5" y1="516" x2="662.5" y2="522"/>
+    <line class="tick" x1="860" y1="516" x2="860" y2="522"/>
+    <text class="tick-label" x="70" y="536">0時</text>
+    <text class="tick-label" x="267.5" y="536">6時</text>
+    <text class="tick-label" x="465" y="536">12時</text>
+    <text class="tick-label" x="662.5" y="536">18時</text>
+    <text class="tick-label" x="860" y="536">24時</text>
+  </g>
+
+  <text class="footnote" x="450" y="568">縦軸は思考の集中度合いのイメージ、横軸は1日の時刻（0〜24時）</text>
+</svg>
