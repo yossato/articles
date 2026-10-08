@@ -83,4 +83,3 @@ LLMは、作り方はわからなくても育て方はわかる、というと�
 ## 参考文献
 
 - Paul Janet, "Une illusion d'optique interne", *Revue philosophique de la France et de l'étranger*, 1877（ジャネーの法則の原典とされる論文）
-- 一川誠『大人の時間はなぜ短いのか』集英社新書, 2008（日本語で読める体感時間の解説書）
